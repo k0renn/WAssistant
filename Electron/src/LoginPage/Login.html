@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>דף התחברות</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>שם החברה</h1>
+      <h2>התחברות</h2>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>משתמש</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label> סיסמה</label>
+        </div>
+        <div class="pass">שכחתי סיסמה</div>
+        <input id="myInput" type="submit" value="התחבר">
+        <script>
+          document.getElementById("myInput").addEventListener("click", function() {
+            location.href = "../Dashboard/dashboard.html";
+          });
+          </script>
+        <div class="signup_link">
+          לא רשום לשירות? <a href="#">הרשם עכשיו</a>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>

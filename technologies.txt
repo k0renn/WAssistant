@@ -1,0 +1,17 @@
+Technologies:
+
+"Front"
+1. Python - 
+  Automation - selenium
+  GUI - qt / (kivy ?)
+  Integration - WebView + QtWebDriver
+2. NodeJS
+  Automation - puppeteer
+  GUI - Electron / NodeGUI
+  Integration - Electron WebView + native (need to check)
+3. Java
+  Automation - selenium
+  GUI - JavaFX / Java SwingX
+  Integration - need to check WebView Testing in Java
+4. .Net
+  ~_~
